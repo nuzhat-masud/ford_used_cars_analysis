@@ -1,6 +1,6 @@
 # ford_used_cars_analysis
 
-As the price of new model cars skyrocket, more and more peopke are opting to purchase used cars. This dataset includes information on such resold cars of differents models of Ford cars during the year 1996 and 2020. This repository contains a csv file of the dataset used for the analysis and a Jupyter Notebook of data visualization code of correlation analysis and distribution of observations in the dataset. The dataset contains 17964 observations (rows) and 8 attributes (columns). 
+As the price of new model cars skyrocket, more and more people are opting to purchase used cars. This dataset includes information on such resold cars of differents models of Ford cars during the year 1996 and 2020. This repository contains a csv file of the dataset used for the analysis and a Jupyter Notebook of data visualization code of correlation analysis and distribution of observations in the dataset. The dataset contains 17964 observations (rows) and 8 attributes (columns). 
 
 The attributes of the dataset are: 
   - **model** - model of the car
