@@ -1,6 +1,6 @@
 # ford_used_cars_analysis
 
-As the price of new model cars skyrocket, more and more people are opting to purchase used cars. This dataset includes information on such resold cars of differents models of Ford cars during the year 1996 and 2020. This repository contains a csv file of the dataset used for the analysis and a Jupyter Notebook of data visualization code of correlation analysis and distribution of observations in the dataset. The dataset contains 17964 observations (rows) and 8 attributes (columns). 
+As the price of new model cars skyrocket, more and more people are opting to purchase used cars. This dataset includes information on such resold cars of differents models of Ford cars during the year 1996 and 2020. This repository contains a csv file of the dataset used for the analysis and a Jupyter Notebook of data visualization (ford_used_cars_EDA) code of correlation analysis and distribution of observations in the dataset, and ML model (Ford_used_cars_ML) for price prediction of the cars. The dataset contains 17964 observations (rows) and 8 attributes (columns). 
 
 The attributes of the dataset are: 
   - **model** - model of the car
@@ -42,6 +42,12 @@ In this project, the dataset has been visualised to find correlations between va
 - Fig 7. Barplots of the Ford Used Cars based on Model
 - Fig 8. Barplots of the Ford Used Cars based on Transmission
 - Fig 9. Barplots of the Ford Used Cars based on FuelType
+
+**Price Prediction Model**
+1. Identifying the feature and target variable
+2. Splitting the train and test set
+3. Running Linear Regression Model
+4. Finding the Root Mean Squared Error (RMSE)
 
 **Reference:**
 <br>Dataset Source: https://www.kaggle.com/aishwaryamuthukumar/cars-dataset-audi-bmw-ford-hyundai-skoda-vw
