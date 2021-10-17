@@ -31,7 +31,7 @@ The attributes of the dataset are:
 9. Finding and Visualizing Data for Average Price, Total Price and Frequency of resold cars based on Fuel-type
 
 **Data Visualisation**
-In this project, the dataset has been visualised to find correlations between various factors, and distribution using barplot, scatter plot, regression plot, distribution plot, ECDF and boxplot. The following is the list of the figures in the notebook. 
+<br> In this project, the dataset has been visualised to find correlations between various factors, and distribution using barplot, scatter plot, regression plot, distribution plot, ECDF and boxplot. The following is the list of the figures in the notebook. 
 
 - Fig 1. Categorical variables in the Ford used cars dataset
 - Fig 2. Relationship between price and mileage
@@ -44,10 +44,16 @@ In this project, the dataset has been visualised to find correlations between va
 - Fig 9. Barplots of the Ford Used Cars based on FuelType
 
 **Price Prediction Model**
-1. Identifying the feature and target variable
-2. Splitting the train and test set
-3. Running Linear Regression Model
-4. Finding the Root Mean Squared Error (RMSE)
+1. Encoding categorical variables using One-Hot encoder
+2. Specifying the feature and target variable for Linear Regression Model
+3. Identifying the feature and target variable
+4. Splitting the train and test set
+5. Running Linear Regression Model
+6. Coefficient of Each Feature Variable
+7. y-Intercept
+8. Price Prediction using Test Set
+9. Prediction Error using MAE, MAPE, MSE, RMSE and r-squared
+10. Visualization to Compare the Actual Price vs Predicted Price
 
 **Reference:**
 <br>Dataset Source: https://www.kaggle.com/aishwaryamuthukumar/cars-dataset-audi-bmw-ford-hyundai-skoda-vw
